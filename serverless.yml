@@ -23,7 +23,7 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: handler.boltapp
     events:
       - http:
           method: get
